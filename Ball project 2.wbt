@@ -1,0 +1,51 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.09858593067109285 0.1802950866966471 0.9786595403850937 1.0190656096235307
+  position -2.300115739537142 -4.100158869116207 1.3267087650555867
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation -0.17 -1.08 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0.5 0
+        }
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+}
+RobotstadiumSoccerField {
+}
+E-puck {
+  hidden position_0_0 1072.40424185799
+  hidden position_0_1 122.31277999213793
+  hidden linearVelocity_0 9.045559612168629e-05 6.17702542783982e-05 -8.755797907641868e-11
+  hidden angularVelocity_0 -0.004029577281445986 -0.004437752999015805 -1.4086134476000216
+  hidden translation_1 0 0.02600000000000002 0.02
+  hidden rotation_1 0 1 0 4.262739637460272
+  hidden linearVelocity_1 0.026900082604454492 -0.025098398826938102 -1.3275733609381358e-08
+  hidden angularVelocity_1 1.366247534489972 1.4529637229271586 -1.421725112784672
+  hidden translation_2 0 -0.02600000000000001 0.02
+  hidden rotation_2 0 -0.9999999999999999 0 3.350926151453796
+  hidden linearVelocity_2 -0.026764052181209648 0.025259853604339397 -9.880010960071752e-09
+  hidden angularVelocity_2 -1.3743044258679455 -1.4618410657779717 -1.421777328352595
+  translation -0.21323037303183756 -1.0575183323744966 -8.092987197258483e-05
+  rotation -5.606147217610673e-06 -4.6672879024960564e-05 -0.9999999988951066 0.7791845878706206
+  controller "my_controller_Detection"
+}
