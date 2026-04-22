@@ -21,4 +21,4 @@ This project implements a robot that detects a soccer ball using a camera in Web
 3. Run the simulation
 
 ## Author
-Your Name
+muhammad uzair mazhar choudhry 
